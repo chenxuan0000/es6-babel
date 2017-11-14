@@ -19,3 +19,12 @@ console.log(ggg);
 const [x1, x2, x3, x4] = 'ABCD';
 console.log(x1);
 console.log(x4);
+
+//对象扩展运算符
+function jschenxuan (...args) {
+  for (let val of args) {
+    console.log(val)
+  }
+}
+
+jschenxuan(11, 22, 333, 4444);
